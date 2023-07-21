@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/msa
+    username: root
+    password: '{cipher}090b533429d0ecf0eca1a7166d7612189e8156fe2a4c5607d08cfd998c6f253c' # cipher를 추가하여 해당 글자는 암호화 됐다는것을 명시
+token: 
+  expiration_time: 86400000
+  secret: application_token_changed_#2    
