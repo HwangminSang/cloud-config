@@ -11,4 +11,4 @@ token:
 # 127.0.0.1:9000 -> api-gateway 주소
 order_service:
     #유레카에 등록된 이름  restTemplete의 loadBalanced이용
-        url: http://order-service/order-service/%s/orders
+        url: http://ORDER-SERVICE/order-service/%s/orders
