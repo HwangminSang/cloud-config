@@ -14,4 +14,4 @@ order_service:
         url: http://ORDER-SERVICE/order-service/%s/orders
         # 에러처리
         exception:
-           order_is_empty: User's orders is empty.      
+           order_is_empty: User's orders is empty1.      
