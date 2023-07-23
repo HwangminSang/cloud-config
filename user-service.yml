@@ -12,3 +12,5 @@ token:
 order_service:
     #유레카에 등록된 이름  restTemplete의 loadBalanced이용
         url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+     order_is_empty: User's orders is empty.      
