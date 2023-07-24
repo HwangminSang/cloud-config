@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mariadb://mariadb:3306/user
     username: root
-    password: root
+    password: '{cipher}AQBe1VoCVxUNjmyYcUcgLnEgSXLzjZO5lIUBknUxm9K4Ips2aBBNw9djMlWdHsWkbYlYMPYrpRHIyqc+LIpuq0Zk4Z90fXExZwqG5K6TekKQzjBGpGCpZ5FQd1gCxdeAGBTRKNy3G8WIZmnR8nu2QwhyBMf80aSgxC6gvpi4H3IhJqbj2c7/Bl7rdFHEXsm7xYkHdRSGgga09JpMDMSFWKg/v0t2xnQYBzyj2eSBNCO9qljN5Pbh8F6e+Xwml631WGzrse2TcuVAN0hbtzN4osGqpkhQpKNiqexh/SAliwZ0EIAC4fMS6greEd+s4nWaOl/VOducOJYDngr9QMiGTTVKGGSWB8WyxNcVV7lxQ8umXUxVT/ljCJ7tCww85qaTc/c='
     driver-class-name: org.mariadb.jdbc.Driver
     #mysql
     #driver-class-name: com.mysql.cj.jdbc.Driver
